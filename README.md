@@ -14,6 +14,15 @@ A local Python/Streamlit application to track net worth across multiple accounts
 
 **Current Version:** 1.0.0 (see [VERSION](VERSION) file)
 
+## Try the Live Demo
+
+Experience KUYAN without installation:
+
+- **[Demo with Sample Data](https://kuyan-demo.streamlit.app/?mode=sandbox)** - Pre-populated with 24 months of financial data using a sandbox database. Perfect for exploring features and testing functionality.
+- **[Blank Demo](https://kuyan-demo.streamlit.app/)** - Empty instance to get a feel for the interface.
+
+**Note:** These demos are for exploration only. For production use, please host KUYAN locally following the installation instructions below to ensure your financial data remains private and secure on your machine.
+
 ---
 
 ## Table of Contents
@@ -44,7 +53,7 @@ A local Python/Streamlit application to track net worth across multiple accounts
 - **Monthly snapshots** - Record balances once per month with historical accuracy
 - **Interactive visualizations** - Line graphs, bar charts, and trend analysis
 - **Year-over-year comparison** - Compare financial performance across years
-- **Built-in tools** - Calculator, calendar invite generator, exchange rate widget, CSV export
+- **Built-in tools** - Calculator, calendar invite generator, exchange rate widget, dashboard export (PDF, PNG, HTML)
 - **Real-time currency conversion** - Powered by frankfurter.app API
 - **Privacy-first** - All financial data stored locally in SQLite (only exchange rates fetched from API)
 - **Sandbox mode** - Pre-loaded demo environment with 24 months of sample data
